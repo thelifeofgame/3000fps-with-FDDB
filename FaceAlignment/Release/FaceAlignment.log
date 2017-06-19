@@ -1,0 +1,34 @@
+﻿生成启动时间为 2017/6/5 13:58:15。
+     1>项目“F:\3000fps\3000fps1\face-alignment-in-3000fps-master\FaceAlignment_vs2013\FaceAlignment\FaceAlignment.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Facedetect.cpp
+         Facedetect.cpp
+     1>f:\3000fps\3000fps1\face-alignment-in-3000fps-master\facealignment_vs2013\facealignment\Tree.h(78): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>Facedetect.cpp(202): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Facedetect.cpp(203): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Facedetect.cpp(212): warning C4018: “<”: 有符号/无符号不匹配
+     1>Facedetect.cpp(221): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>Facedetect.cpp(222): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\3000fps\3000fps1\face-alignment-in-3000fps-master\FaceAlignment_vs2013\Release\FaceAlignment.exe" /INCREMENTAL:NO /NOLOGO opencv_calib3d248.lib opencv_contrib248.lib opencv_core248.lib opencv_features2d248.lib opencv_flann248.lib opencv_gpu248.lib opencv_highgui248.lib opencv_imgproc248.lib opencv_legacy248.lib opencv_ml248.lib opencv_nonfree248.lib opencv_objdetect248.lib opencv_ocl248.lib opencv_photo248.lib opencv_stitching248.lib opencv_superres248.lib opencv_ts248.lib opencv_video248.lib opencv_videostab248.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\3000fps\3000fps1\face-alignment-in-3000fps-master\FaceAlignment_vs2013\Release\FaceAlignment.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\3000fps\3000fps1\face-alignment-in-3000fps-master\FaceAlignment_vs2013\Release\FaceAlignment.lib" /MACHINE:X86 /SAFESEH Release\Facedetect.obj
+         Release\LBF.obj
+         Release\LBFRegressor.obj
+         Release\daxpy.obj
+         Release\ddot.obj
+         Release\dnrm2.obj
+         Release\dscal.obj
+         Release\linear.obj
+         Release\tron.obj
+         Release\RandomForest.obj
+         Release\TestModel.obj
+         Release\TrainModel.obj
+         Release\Tree.obj
+         Release\Utils.obj
+         正在生成代码
+         已完成代码的生成
+         FaceAlignment.vcxproj -> F:\3000fps\3000fps1\face-alignment-in-3000fps-master\FaceAlignment_vs2013\Release\FaceAlignment.exe
+     1>已完成生成项目“F:\3000fps\3000fps1\face-alignment-in-3000fps-master\FaceAlignment_vs2013\FaceAlignment\FaceAlignment.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.30
